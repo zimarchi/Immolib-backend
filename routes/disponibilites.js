@@ -8,7 +8,6 @@ const extendedMoment = extendMoment(moment);
 require("../models/connection");
 const Pros = require("../models/pros");
 const Disponibilites = require("../models/disponibilites");
-const { checkBody } = require("../modules/checkBody");
 
 // route pour créer/ajouter une disponibilité
 router.post("/", async (req, res) => {
